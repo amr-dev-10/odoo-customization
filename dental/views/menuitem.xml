@@ -1,0 +1,19 @@
+<odoo>
+    <menuitem id="detal_patients_root" name="Dental" web_icon="dental,static/src/img/dental_icon.png">
+        <menuitem id="dental_patients_level_first_menu" name="Patients" action="dental_patients_action">
+        </menuitem>
+        <menuitem id="dental_patients_level_two_menu" name="Medical Aids" action="detal_medical_aids_action">
+        </menuitem>
+        <menuitem id="dental_patients_level_three_menu" name="Medical Symptoms">
+            <menuitem id="dental_patients_model_chronic_condition" action="detal_chronic_condition_action"/>
+            <menuitem id="dental_patients_model_allergies" action="detal_allergies_action"/>
+            <menuitem id="dental_patients_model_habits_abuse" action="detal_habits_abuse_action"/>
+        </menuitem>
+        <menuitem id="dental_patients_level_four_menu" name="Medication" action="detal_medication_action">
+        </menuitem>
+        <menuitem id="dental_patients_level_five_menu" name="Configuration">
+            <menuitem id="dental_patients_model_tags" action="detal_tags_action"/>
+            <menuitem id="dental_patients_model_history" action="detal_history_action"/>
+        </menuitem>
+    </menuitem>
+</odoo>
